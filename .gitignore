@@ -9,6 +9,7 @@ src/.env.production
 
 # Laravel build/cache
 src/public/build
+src/public/hot
 src/storage/*.key
 
 # Logs
@@ -24,6 +25,3 @@ docker/mysql/data
 # OS
 .DS_Store
 Thumbs.db
-
-# Vite
-src/public/hot
