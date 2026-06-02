@@ -1,0 +1,29 @@
+# Laravel dependencies
+src/vendor
+src/node_modules
+
+# Laravel environment
+src/.env
+src/.env.backup
+src/.env.production
+
+# Laravel build/cache
+src/public/build
+src/storage/*.key
+
+# Logs
+*.log
+
+# Docker local data
+docker/mysql/data
+
+# Editor
+.vscode
+.idea
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Vite
+src/public/hot
